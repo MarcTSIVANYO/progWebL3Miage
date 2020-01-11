@@ -5,7 +5,7 @@
 	    $host = 'localhost'; 
 	    $user = 'root'; 
 	    $pass = ''; 
-	    $database = 'messagerie_db'; 
+	    $database = 'cini_db'; 
 	    $dns = $dbtype.':dbname='.$database.";host=".$host; 
 	    $dbh = new PDO( $dns, $user, $pass ); 
 	}
